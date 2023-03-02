@@ -1,0 +1,41 @@
+[
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "Sora",
+          "fontStyle": "normal",
+          "fontWeight": 300
+        }
+      ]
+    }
+  },
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "Sora",
+          "fontStyle": "normal",
+          "fontWeight": 400
+        }
+      ]
+    }
+  },
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "Sora",
+          "fontStyle": "normal",
+          "fontWeight": 500
+        }
+      ]
+    }
+  }
+]
