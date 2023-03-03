@@ -37,5 +37,18 @@
         }
       ]
     }
+  },
+  {
+    "str": "@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');",
+    "method": "css",
+    "imports": {
+      "fonts": [
+        {
+          "fontFamily": "Sora",
+          "fontStyle": "normal",
+          "fontWeight": 600
+        }
+      ]
+    }
   }
 ]

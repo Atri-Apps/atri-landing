@@ -118,6 +118,36 @@ const desktopModeProps = {
     "Flex34": {
       "callbacks": {}
     },
+    "section_one": {
+      "callbacks": {}
+    },
+    "header": {
+      "callbacks": {}
+    },
+    "logo": {
+      "callbacks": {}
+    },
+    "navigation": {
+      "callbacks": {}
+    },
+    "Flex40": {
+      "callbacks": {}
+    },
+    "hero_section": {
+      "callbacks": {}
+    },
+    "open_source": {
+      "callbacks": {}
+    },
+    "Flex43": {
+      "callbacks": {}
+    },
+    "Div3": {
+      "callbacks": {}
+    },
+    "Flex45": {
+      "callbacks": {}
+    },
     "announcement_content": {
       "custom": {
         "text": "📩 A weekly email with our favorite articles about design, front-end development, technology, and startups..."
@@ -473,6 +503,226 @@ const desktopModeProps = {
             "sendEventData": true
           }
         ]
+      }
+    },
+    "Image25": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/logo_with_name%202.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image26": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/logo_with_name%203.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox26": {
+      "custom": {
+        "text": "Showcase"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox27": {
+      "custom": {
+        "text": "Docs"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox28": {
+      "custom": {
+        "text": "Blog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox29": {
+      "custom": {
+        "text": "Tutorials"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox30": {
+      "custom": {
+        "text": "Get started"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox33": {
+      "custom": {
+        "text": "Build better apps faster"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox34": {
+      "custom": {
+        "text": "Reduced development time. Better code quality. Minimal learning curve."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox31": {
+      "custom": {
+        "text": "OPEN SOURCE"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image27": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Vector.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox32": {
+      "custom": {
+        "text": "Leave a star"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "code_one": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/code.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "code_two": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/code-2.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image31": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Browser-2.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "code_two_snippet": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/code-2.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      },
+      "styles": {
+        "right": "-5%",
+        "top": "15%"
+      }
+    },
+    "code_one_snippet": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/code.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      },
+      "styles": {
+        "left": "-7%",
+        "top": "31%"
       }
     }
   }

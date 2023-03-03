@@ -22,5 +22,17 @@
   },
   "icons.png": {
     "mime": "image/png"
+  },
+  "grid.png": {
+    "mime": "image/png"
+  },
+  "Browser-2.png": {
+    "mime": "image/png"
+  },
+  "code.png": {
+    "mime": "image/png"
+  },
+  "code-2.png": {
+    "mime": "image/png"
   }
 }
