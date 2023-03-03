@@ -1032,8 +1032,8 @@ export function useFlex43Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox33Cb() {
-	const onClick = useCallback(callbackFactory("TextBox33", "Home", "/", "onClick", 
+export function usesloganCb() {
+	const onClick = useCallback(callbackFactory("slogan", "Home", "/", "onClick", 
 			{
   "handlers": [
     {
@@ -1048,8 +1048,8 @@ export function useTextBox33Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox34Cb() {
-	const onClick = useCallback(callbackFactory("TextBox34", "Home", "/", "onClick", 
+export function usebenefitsCb() {
+	const onClick = useCallback(callbackFactory("benefits", "Home", "/", "onClick", 
 			{
   "handlers": [
     {
@@ -1160,6 +1160,18 @@ export function usecode_one_snippetCb() {
       "sendEventData": true
     }
   ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useBodyCb() {
+	const onClick = useCallback(callbackFactory("Body", "Home", "/", "onClick", 
+			{
+  "handlers": [],
   "actions": [
     {
       "type": "do_nothing"

@@ -1,3 +1,8 @@
+.p-Home.Body {
+display: flex;
+flex-direction: column;
+background-color: #000111ff;
+}
 .p-Home.anouncement {
 display: flex;
 align-items: center;
@@ -277,7 +282,7 @@ align-items: center;
 .p-Home.section_one {
 display: flex;
 background-image: url("/app-assets/grid.png");
-background-color: #000f;
+background-color: ;
 width: ;
 height: ;
 flex-direction: column;
@@ -490,7 +495,7 @@ padding-left: 4px;
 font-family: Sora;
 font-weight: 500;
 }
-.p-Home.TextBox33 {
+.p-Home.slogan {
 line-height: 80px;
 font-size: 64px;
 font-family: Sora;
@@ -498,7 +503,7 @@ font-weight: 600;
 color: #ffff;
 align-self: center;
 }
-.p-Home.TextBox34 {
+.p-Home.benefits {
 line-height: 28px;
 font-size: 20px;
 font-family: Sora;
@@ -557,6 +562,14 @@ float: none;
 clear: none;
 height: 40%;
 margin-left: 20px;
+}
+@media screen and (max-width: 767px) {
+	.p-Home.section_one.bpt {
+padding-top: 88px;
+	}
+	.p-Home.hero_section.bpt {
+padding-bottom: 16px;
+	}
 }
 @media screen and (max-width: 478px) {
 	.p-Home.footer_row_one.bpt {

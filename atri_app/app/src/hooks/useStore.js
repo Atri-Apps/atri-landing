@@ -40,6 +40,9 @@ export function updateStoreStateFromController(pageName, newState) {
 const desktopModeProps = {
   ...{
   "Home": {
+    "Body": {
+      "callbacks": {}
+    },
     "anouncement": {
       "callbacks": {}
     },
@@ -591,7 +594,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox33": {
+    "slogan": {
       "custom": {
         "text": "Build better apps faster"
       },
@@ -603,7 +606,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox34": {
+    "benefits": {
       "custom": {
         "text": "Reduced development time. Better code quality. Minimal learning curve."
       },
