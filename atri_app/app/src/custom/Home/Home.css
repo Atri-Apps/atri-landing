@@ -1,0 +1,3 @@
+.p-Home.anouncement, .p-Home.header {
+    backdrop-filter: blur(10px);
+}

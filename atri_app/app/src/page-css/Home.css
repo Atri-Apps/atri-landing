@@ -32,6 +32,8 @@ border-left-color: ;
 border-bottom-width: 0.5px;
 border-bottom-style: solid;
 border-bottom-color: #2E2F35ff;
+right: 0;
+z-index: 2;
 }
 .p-Home.footer {
 display: flex;
@@ -289,6 +291,7 @@ flex-direction: column;
 padding-top: 72px;
 padding-right: 64px;
 padding-left: 64px;
+position: relative;
 }
 .p-Home.header {
 display: flex;
@@ -308,6 +311,12 @@ font-weight: 400;
 font-size: 16px;
 line-height: 26px;
 color: #FFFFFFff;
+position: sticky;
+top: 72px;
+z-index: 2;
+width: ;
+right: 64px;
+left: 64px;
 }
 .p-Home.logo {
 display: flex;
