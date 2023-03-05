@@ -190,9 +190,10 @@ font-weight: 500;
 font-size: 16px;
 color: #ffff;
 line-height: 26px;
-column-gap: 16px;
+column-gap: 64px;
 align-items: flex-start;
 justify-content: space-between;
+width: 100%;
 }
 .p-Home.fr_col_one {
 display: flex;
@@ -573,18 +574,96 @@ height: 40%;
 margin-left: 20px;
 }
 @media screen and (max-width: 767px) {
-	.p-Home.section_one.bpt {
-padding-top: 88px;
-	}
 	.p-Home.hero_section.bpt {
 padding-bottom: 16px;
 	}
+	.p-Home.slogan.bpt {
+text-align: center;
+	}
+	.p-Home.benefits.bpt {
+text-align: center;
+	}
+	.p-Home.footer.bpt {
+overflow: hidden;
+	}
+	.p-Home.footer_row_one.bpt {
+align-items: center;
+	}
+	.p-Home.footer_row_two.bpt {
+flex-direction: row;
+align-items: flex-start;
+column-gap: 32px;
+row-gap: ;
+	}
+	.p-Home.section_one.bpt {
+padding-top: 88px;
+	}
+	.p-Home.TextBox25.bpt {
+text-align: center;
+	}
 }
 @media screen and (max-width: 478px) {
+	.p-Home.Body.bpt {
+flex-direction: column;
+width: auto;
+overflow: visible;
+	}
+	.p-Home.anouncement.bpt {
+width: auto;
+	}
+	.p-Home.footer.bpt {
+flex-direction: column;
+align-items: stretch;
+justify-content: flex-start;
+padding-left: 16px;
+padding-right: 16px;
+width: auto;
+overflow: visible;
+	}
+	.p-Home.Flex18.bpt {
+flex-direction: column;
+	}
 	.p-Home.footer_row_one.bpt {
-flex-direction: row;
+flex-direction: column;
 align-items: center;
 justify-content: center;
-row-gap: ;
+row-gap: 16px;
+	}
+	.p-Home.Flex11.bpt {
+width: 100%;
+	}
+	.p-Home.Flex20.bpt {
+justify-content: space-between;
+column-gap: ;
+align-content: flex-end;
+align-items: center;
+flex-direction: row;
+width: 100%;
+	}
+	.p-Home.footer_row_three.bpt {
+width: 100%;
+align-items: center;
+flex-direction: column;
+row-gap: 8px;
+justify-content: space-between;
+	}
+	.p-Home.Flex24.bpt {
+justify-content: space-between;
+width: 100%;
+	}
+	.p-Home.footer_row_two.bpt {
+flex-direction: row;
+row-gap: 24px;
+column-gap: ;
+justify-content: space-between;
+	}
+	.p-Home.fr_col_five.bpt {
+width: 100%;
+	}
+	.p-Home.section_one.bpt {
+width: auto;
+	}
+	.p-Home.TextBox25.bpt {
+text-align: center;
 	}
 }
