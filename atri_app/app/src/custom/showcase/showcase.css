@@ -1,9 +1,8 @@
-.p-Home.anouncement,
-.p-Home.header {
+.p-showcase.header {
 	backdrop-filter: blur(10px);
 }
 
-.p-Home.slogan {
+.p-showcase.slogan {
 	color: transparent;
 	background-image: radial-gradient(#fff 0%, #000 175%);
 	background-clip: text;
@@ -11,20 +10,10 @@
 	-webkit-text-fill-color: transparent;
 }
 
-.p-Home.benefits {
+.p-showcase.sub_slogan {
 	color: transparent;
-	background-image: radial-gradient(#dddddd 0%, rgba(221, 221, 221, 0) 175%);
+	background-image: radial-gradient(#fff 0%, #000 175%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-}
-
-.p-Home.top_menu:before {
-	content: " ";
-	backdrop-filter: blur(10px);
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
 }

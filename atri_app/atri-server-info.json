@@ -5,6 +5,12 @@
   "pages": {
     "/": {
       "name": "Home"
+    },
+    "/temp": {
+      "name": "temp"
+    },
+    "/showcase": {
+      "name": "showcase"
     }
   },
   "publicUrlAssetMap": {
