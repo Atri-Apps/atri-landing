@@ -1374,8 +1374,8 @@ export function useFlex101Cb() {
 }), [])
 	return { onClick }
 }
-export function useFlex102Cb() {
-	const onClick = useCallback(callbackFactory("Flex102", "Home", "/", "onClick", 
+export function usefooterCb() {
+	const onClick = useCallback(callbackFactory("footer", "Home", "/", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -1404,6 +1404,30 @@ export function usesign_up_status_textCb() {
 }
 export function usesign_up_statusCb() {
 	const onClick = useCallback(callbackFactory("sign_up_status", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useDiv6Cb() {
+	const onClick = useCallback(callbackFactory("Div6", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function usesection_twoCb() {
+	const onClick = useCallback(callbackFactory("section_two", "Home", "/", "onClick", 
 			{
   "handlers": [],
   "actions": [

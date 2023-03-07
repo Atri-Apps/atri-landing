@@ -100,7 +100,7 @@ const desktopModeProps = {
     "Flex45": {
       "callbacks": {}
     },
-    "Flex102": {
+    "footer": {
       "callbacks": {}
     },
     "Flex101": {
@@ -239,6 +239,9 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "sign_up_status": {
+      "callbacks": {}
+    },
+    "section_two": {
       "callbacks": {}
     },
     "Image25": {
@@ -542,6 +545,9 @@ const desktopModeProps = {
         "left": "-7%",
         "top": "31%"
       }
+    },
+    "Div6": {
+      "callbacks": {}
     },
     "Image44": {
       "custom": {

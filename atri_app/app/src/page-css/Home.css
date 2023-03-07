@@ -108,7 +108,7 @@ display: flex;
 justify-content: center;
 position: relative;
 }
-.p-Home.Flex102 {
+.p-Home.footer {
 display: flex;
 flex-direction: column;
 align-items: stretch;
@@ -367,6 +367,9 @@ align-items: center;
 .p-Home.sign_up_status {
 display: none;
 }
+.p-Home.section_two {
+display: flex;
+}
 .p-Home.Image25 {
 ;
 }
@@ -483,6 +486,13 @@ float: none;
 clear: none;
 height: 40%;
 margin-left: 20px;
+}
+.p-Home.Div6 {
+position: absolute;
+bottom: 0;
+width: 25%;
+height: 25%;
+background-color: #C183FFff;
 }
 .p-Home.Image44 {
 ;
