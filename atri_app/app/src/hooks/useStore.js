@@ -275,7 +275,37 @@ const desktopModeProps = {
     "sign_up_status": {
       "callbacks": {}
     },
-    "Flex230": {
+    "section_two": {
+      "callbacks": {}
+    },
+    "Div6": {
+      "callbacks": {}
+    },
+    "Flex256": {
+      "callbacks": {}
+    },
+    "Flex255": {
+      "callbacks": {}
+    },
+    "Flex254": {
+      "callbacks": {}
+    },
+    "Flex259": {
+      "callbacks": {}
+    },
+    "Flex258": {
+      "callbacks": {}
+    },
+    "Flex257": {
+      "callbacks": {}
+    },
+    "Flex262": {
+      "callbacks": {}
+    },
+    "Flex261": {
+      "callbacks": {}
+    },
+    "Flex260": {
       "callbacks": {}
     },
     "made_with_atri": {
@@ -1063,6 +1093,225 @@ const desktopModeProps = {
     "TextBox177": {
       "custom": {
         "text": "A new approach to full-stack development"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image119": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Frame%20384-3.webp"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox221": {
+      "custom": {
+        "text": "REDUCED DEVELOPMENT TIME"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox222": {
+      "custom": {
+        "text": "Access to productivity tools 1"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox218": {
+      "custom": {
+        "text": "Get the best of both no-code and code worlds by:"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox219": {
+      "custom": {
+        "text": "- using productivity tools such as visual editor and "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox220": {
+      "custom": {
+        "text": "- simultaneously writing custom React code"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image120": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Frame%20384.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox226": {
+      "custom": {
+        "text": "Access to productivity tools 2"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox227": {
+      "custom": {
+        "text": "REDUCED DEVELOPMENT TIME"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox223": {
+      "custom": {
+        "text": "- simultaneously writing custom React code"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox224": {
+      "custom": {
+        "text": "- using productivity tools such as visual editor and "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox225": {
+      "custom": {
+        "text": "Get the best of both no-code and code worlds by:"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image121": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Frame%20384.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox231": {
+      "custom": {
+        "text": "REDUCED DEVELOPMENT TIME"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox232": {
+      "custom": {
+        "text": "Access to productivity tools"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox228": {
+      "custom": {
+        "text": "Get the best of both no-code and code worlds by:"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox229": {
+      "custom": {
+        "text": "- using productivity tools such as visual editor and "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox230": {
+      "custom": {
+        "text": "- simultaneously writing custom React code"
       },
       "callbacks": {
         "onClick": [
