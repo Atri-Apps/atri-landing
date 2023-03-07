@@ -50,7 +50,16 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "logo": {
-      "callbacks": {}
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
     },
     "navigation": {
       "callbacks": {}
@@ -94,10 +103,35 @@ const desktopModeProps = {
         ]
       }
     },
+    "Flex45": {
+      "callbacks": {}
+    },
+    "slogan_container": {
+      "callbacks": {}
+    },
     "Div3": {
       "callbacks": {}
     },
-    "Flex45": {
+    "subtitle_container": {
+      "callbacks": {}
+    },
+    "Flex224": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "https://youtu.be/YokMeI23_iw",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "subtitle_container_mob": {
+      "callbacks": {}
+    },
+    "Flex228": {
       "callbacks": {}
     },
     "Flex102": {
@@ -180,7 +214,10 @@ const desktopModeProps = {
     "Flex94": {
       "callbacks": {}
     },
-    "Flex86": {
+    "Flex87": {
+      "callbacks": {}
+    },
+    "Flex229": {
       "callbacks": {
         "onClick": [
           {
@@ -192,9 +229,6 @@ const desktopModeProps = {
           }
         ]
       }
-    },
-    "Flex87": {
-      "callbacks": {}
     },
     "Flex99": {
       "callbacks": {}
@@ -239,6 +273,9 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "sign_up_status": {
+      "callbacks": {}
+    },
+    "made_with_atri": {
       "callbacks": {}
     },
     "Image25": {
@@ -409,30 +446,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "slogan": {
-      "custom": {
-        "text": "Build better apps faster"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "benefits": {
-      "custom": {
-        "text": "Reduced development time. Better code quality. Minimal learning curve."
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox31": {
       "custom": {
         "text": "OPEN SOURCE"
@@ -461,32 +474,6 @@ const desktopModeProps = {
     "TextBox32": {
       "custom": {
         "text": "Leave a star"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "code_one": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/code.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "code_two": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/code-2.png"
       },
       "callbacks": {
         "onClick": [
@@ -541,6 +528,146 @@ const desktopModeProps = {
       "styles": {
         "left": "-7%",
         "top": "31%"
+      }
+    },
+    "slogan": {
+      "custom": {
+        "text": "The Python web framework"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox169": {
+      "custom": {
+        "text": "to build stunning apps"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "code_one": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/code.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "code_two": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/code-2.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "benefits": {
+      "custom": {
+        "text": "Build frontend easily using Atri visual builder or  React code. "
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox170": {
+      "custom": {
+        "text": "Build backend using FastAPI."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox171": {
+      "custom": {
+        "text": "Watch 1 min teaser"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image106": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/play_icon.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox172": {
+      "custom": {
+        "text": "Build frontend easily using Atri visual builder or  React code. Build backend using FastAPI."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox173": {
+      "custom": {
+        "text": "Backed by"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image109": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/yc_expanded_logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "https://www.ycombinator.com/companies/atri-labs",
+              "target": "_blank"
+            }
+          }
+        ]
       }
     },
     "Image44": {
@@ -608,31 +735,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image49": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/Vector.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox67": {
-      "custom": {
-        "text": "Leave a star"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "Image50": {
       "custom": {
         "alt": "No preview available",
@@ -650,6 +752,31 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/logo_with_name%202.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox175": {
+      "custom": {
+        "text": "Leave a star"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image110": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/Vector.png"
       },
       "callbacks": {
         "onClick": [
@@ -848,7 +975,7 @@ const desktopModeProps = {
     },
     "TextBox71": {
       "custom": {
-        "text": "OPEN SOURCE"
+        "text": "ABOUT"
       },
       "callbacks": {
         "onClick": [
@@ -876,7 +1003,7 @@ const desktopModeProps = {
     },
     "TextBox74": {
       "custom": {
-        "text": "Subscribe to our free monthly newsletter"
+        "text": "Sign up for cloud waitlist"
       },
       "callbacks": {
         "onClick": [
@@ -909,6 +1036,19 @@ const desktopModeProps = {
     "sign_up_status_text": {
       "custom": {
         "text": "Your text Here!"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image107": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/made_with_atri.svg"
       },
       "callbacks": {
         "onClick": [
@@ -1370,10 +1510,10 @@ const desktopModeProps = {
     "header": {
       "callbacks": {}
     },
-    "Flex143": {
+    "Flex218": {
       "callbacks": {}
     },
-    "Menu3": {
+    "Menu5": {
       "custom": {
         "open": false,
         "iconHeight": 24,
@@ -1384,17 +1524,26 @@ const desktopModeProps = {
       },
       "callbacks": {}
     },
-    "Flex131": {
+    "Flex217": {
       "callbacks": {}
     },
-    "Flex118": {
+    "Flex216": {
       "callbacks": {}
     },
-    "Flex144": {
+    "Flex219": {
       "callbacks": {}
     },
-    "Flex145": {
-      "callbacks": {}
+    "Flex220": {
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
     },
     "Flex181": {
       "callbacks": {}
@@ -1537,9 +1686,12 @@ const desktopModeProps = {
         ]
       }
     },
+    "made_with_atri": {
+      "callbacks": {}
+    },
     "sub_slogan": {
       "custom": {
-        "text": "Explore the websites built using Atri framework"
+        "text": "Explore the web apps built using Atri framework"
       },
       "callbacks": {
         "onClick": [
@@ -1551,7 +1703,7 @@ const desktopModeProps = {
     },
     "slogan": {
       "custom": {
-        "text": "Atri Project"
+        "text": "Atri App Showcase"
       },
       "callbacks": {
         "onClick": [
@@ -1630,6 +1782,23 @@ const desktopModeProps = {
         ]
       }
     },
+    "Image82": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/restraunt.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "https://atri-apps.github.io/restaurant_website/",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
     "Image79": {
       "custom": {
         "alt": "No preview available",
@@ -1641,23 +1810,6 @@ const desktopModeProps = {
             "navigate": {
               "type": "external",
               "url": "https://atri-apps.github.io/full_stack_ecommerce_website/",
-              "target": "_blank"
-            }
-          }
-        ]
-      }
-    },
-    "Image80": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/personal-blog.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "external",
-              "url": "https://atri-apps.github.io/portfolio-templates/",
               "target": "_blank"
             }
           }
@@ -1681,17 +1833,17 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image82": {
+    "Image80": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/restraunt.png"
+        "src": "/app-assets/personal-blog.png"
       },
       "callbacks": {
         "onClick": [
           {
             "navigate": {
               "type": "external",
-              "url": "https://atri-apps.github.io/restaurant_website/",
+              "url": "https://atri-apps.github.io/portfolio-templates/",
               "target": "_blank"
             }
           }
@@ -1715,7 +1867,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Button3": {
+    "Button5": {
       "custom": {
         "text": "Get started"
       },
@@ -1731,7 +1883,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox96": {
+    "TextBox161": {
       "custom": {
         "text": "Tutorials"
       },
@@ -1747,7 +1899,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox97": {
+    "TextBox162": {
       "custom": {
         "text": "Blogs"
       },
@@ -1763,7 +1915,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox98": {
+    "TextBox163": {
       "custom": {
         "text": "Docs"
       },
@@ -1779,7 +1931,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox99": {
+    "TextBox164": {
       "custom": {
         "text": "Showcase"
       },
@@ -1794,7 +1946,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox111": {
+    "TextBox165": {
       "custom": {
         "text": "Tutorials"
       },
@@ -1810,7 +1962,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox112": {
+    "TextBox166": {
       "custom": {
         "text": "Blog"
       },
@@ -1826,7 +1978,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox113": {
+    "TextBox167": {
       "custom": {
         "text": "Docs"
       },
@@ -1842,7 +1994,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox114": {
+    "TextBox168": {
       "custom": {
         "text": "Showcase"
       },
@@ -1857,7 +2009,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image76": {
+    "Image104": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/logo_with_name%203.png"
@@ -1870,7 +2022,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image77": {
+    "Image105": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/logo_with_name%202.png"
@@ -1929,7 +2081,7 @@ const desktopModeProps = {
     },
     "TextBox125": {
       "custom": {
-        "text": "OPEN SOURCE"
+        "text": "ABOUT"
       },
       "callbacks": {
         "onClick": [
@@ -2249,6 +2401,19 @@ const desktopModeProps = {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/Vector.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image108": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/made_with_atri.svg"
       },
       "callbacks": {
         "onClick": [

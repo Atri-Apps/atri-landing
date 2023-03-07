@@ -1,108 +1,5 @@
 import { useCallback } from "react";
 import { callbackFactory } from "../utils/callbackFactory";
-export function useTextBox96Cb() {
-	const onClick = useCallback(callbackFactory("TextBox96", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "external",
-        "url": "https://docs.atrilabs.com/tutorials/bkg_swapper",
-        "target": "_blank"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox97Cb() {
-	const onClick = useCallback(callbackFactory("TextBox97", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "external",
-        "url": "https://docs.atrilabs.com/blog",
-        "target": "_blank"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox98Cb() {
-	const onClick = useCallback(callbackFactory("TextBox98", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "external",
-        "url": "https://docs.atrilabs.com/",
-        "target": "_blank"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox99Cb() {
-	const onClick = useCallback(callbackFactory("TextBox99", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "internal",
-        "url": "/showcase"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex118Cb() {
-	const onClick = useCallback(callbackFactory("Flex118", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex131Cb() {
-	const onClick = useCallback(callbackFactory("Flex131", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useImage71Cb() {
 	const onClick = useCallback(callbackFactory("Image71", "showcase", "/showcase", "onClick", 
 			{
@@ -153,153 +50,6 @@ export function useImage74Cb() {
 }
 export function useImage75Cb() {
 	const onClick = useCallback(callbackFactory("Image75", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useMenu3Cb() {
-	const onClick = useCallback(callbackFactory("Menu3", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "controlled",
-      "selector": [
-        "custom",
-        "open"
-      ]
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useButton3Cb() {
-	const onClick = useCallback(callbackFactory("Button3", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "external",
-        "url": "https://docs.atrilabs.com/category/getting-started",
-        "target": "_blank"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox111Cb() {
-	const onClick = useCallback(callbackFactory("TextBox111", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "external",
-        "url": "https://docs.atrilabs.com/tutorials/bkg_swapper",
-        "target": "_blank"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox112Cb() {
-	const onClick = useCallback(callbackFactory("TextBox112", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "external",
-        "url": "https://docs.atrilabs.com/blog",
-        "target": "_blank"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox113Cb() {
-	const onClick = useCallback(callbackFactory("TextBox113", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "external",
-        "url": "https://docs.atrilabs.com/",
-        "target": "_blank"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox114Cb() {
-	const onClick = useCallback(callbackFactory("TextBox114", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "internal",
-        "url": "/showcase"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage76Cb() {
-	const onClick = useCallback(callbackFactory("Image76", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage77Cb() {
-	const onClick = useCallback(callbackFactory("Image77", "showcase", "/showcase", "onClick", 
 			{
   "handlers": [
     {
@@ -370,56 +120,8 @@ export function usesloganCb() {
 }), [])
 	return { onClick }
 }
-export function useFlex143Cb() {
-	const onClick = useCallback(callbackFactory("Flex143", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex144Cb() {
-	const onClick = useCallback(callbackFactory("Flex144", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex145Cb() {
-	const onClick = useCallback(callbackFactory("Flex145", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useFlex147Cb() {
 	const onClick = useCallback(callbackFactory("Flex147", "showcase", "/showcase", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useheaderCb() {
-	const onClick = useCallback(callbackFactory("header", "showcase", "/showcase", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -1476,6 +1178,339 @@ export function usesign_up_status_textCb() {
 }
 export function usesign_up_statusCb() {
 	const onClick = useCallback(callbackFactory("sign_up_status", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox161Cb() {
+	const onClick = useCallback(callbackFactory("TextBox161", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://docs.atrilabs.com/tutorials/bkg_swapper",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox162Cb() {
+	const onClick = useCallback(callbackFactory("TextBox162", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://docs.atrilabs.com/blog",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox163Cb() {
+	const onClick = useCallback(callbackFactory("TextBox163", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://docs.atrilabs.com/",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox164Cb() {
+	const onClick = useCallback(callbackFactory("TextBox164", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/showcase"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex216Cb() {
+	const onClick = useCallback(callbackFactory("Flex216", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex217Cb() {
+	const onClick = useCallback(callbackFactory("Flex217", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useMenu5Cb() {
+	const onClick = useCallback(callbackFactory("Menu5", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "controlled",
+      "selector": [
+        "custom",
+        "open"
+      ]
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton5Cb() {
+	const onClick = useCallback(callbackFactory("Button5", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://docs.atrilabs.com/category/getting-started",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox165Cb() {
+	const onClick = useCallback(callbackFactory("TextBox165", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://docs.atrilabs.com/tutorials/bkg_swapper",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox166Cb() {
+	const onClick = useCallback(callbackFactory("TextBox166", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://docs.atrilabs.com/blog",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox167Cb() {
+	const onClick = useCallback(callbackFactory("TextBox167", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://docs.atrilabs.com/",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox168Cb() {
+	const onClick = useCallback(callbackFactory("TextBox168", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/showcase"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage104Cb() {
+	const onClick = useCallback(callbackFactory("Image104", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage105Cb() {
+	const onClick = useCallback(callbackFactory("Image105", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex218Cb() {
+	const onClick = useCallback(callbackFactory("Flex218", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex219Cb() {
+	const onClick = useCallback(callbackFactory("Flex219", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex220Cb() {
+	const onClick = useCallback(callbackFactory("Flex220", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useheaderCb() {
+	const onClick = useCallback(callbackFactory("header", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage108Cb() {
+	const onClick = useCallback(callbackFactory("Image108", "showcase", "/showcase", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function usemade_with_atriCb() {
+	const onClick = useCallback(callbackFactory("made_with_atri", "showcase", "/showcase", "onClick", 
 			{
   "handlers": [],
   "actions": [

@@ -52,5 +52,14 @@
   },
   "tabular.png": {
     "mime": "image/png"
+  },
+  "play_icon.svg": {
+    "mime": "image/svg+xml"
+  },
+  "made_with_atri.svg": {
+    "mime": "image/svg+xml"
+  },
+  "yc_expanded_logo.png": {
+    "mime": "image/png"
   }
 }
