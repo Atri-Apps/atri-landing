@@ -27,7 +27,14 @@ export function useheaderCb() {
 export function uselogoCb() {
 	const onClick = useCallback(callbackFactory("logo", "Home", "/", "onClick", 
 			{
-  "handlers": [],
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
@@ -269,50 +276,6 @@ export function usesloganCb() {
 }
 export function usebenefitsCb() {
 	const onClick = useCallback(callbackFactory("benefits", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useDiv3Cb() {
-	const onClick = useCallback(callbackFactory("Div3", "Home", "/", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function usecode_oneCb() {
-	const onClick = useCallback(callbackFactory("code_one", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function usecode_twoCb() {
-	const onClick = useCallback(callbackFactory("code_two", "Home", "/", "onClick", 
 			{
   "handlers": [
     {
@@ -790,38 +753,6 @@ export function useImage48Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage49Cb() {
-	const onClick = useCallback(callbackFactory("Image49", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox67Cb() {
-	const onClick = useCallback(callbackFactory("TextBox67", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useImage50Cb() {
 	const onClick = useCallback(callbackFactory("Image50", "Home", "/", "onClick", 
 			{
@@ -1098,26 +1029,6 @@ export function useFlex85Cb() {
       "navigate": {
         "type": "external",
         "url": "https://join.slack.com/t/atricommunity/shared_invite/zt-1otyguhy8-P4OQQRWFWcMUsKk7yp0FHQ",
-        "target": "_blank"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex86Cb() {
-	const onClick = useCallback(callbackFactory("Flex86", "Home", "/", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "external",
-        "url": "https://github.com/Atri-Labs/atrilabs-engine",
         "target": "_blank"
       }
     }
@@ -1414,8 +1325,24 @@ export function usesign_up_statusCb() {
 }), [])
 	return { onClick }
 }
-export function useDiv6Cb() {
-	const onClick = useCallback(callbackFactory("Div6", "Home", "/", "onClick", 
+export function useTextBox169Cb() {
+	const onClick = useCallback(callbackFactory("TextBox169", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useslogan_containerCb() {
+	const onClick = useCallback(callbackFactory("slogan_container", "Home", "/", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -1426,10 +1353,278 @@ export function useDiv6Cb() {
 }), [])
 	return { onClick }
 }
-export function usesection_twoCb() {
-	const onClick = useCallback(callbackFactory("section_two", "Home", "/", "onClick", 
+export function useDiv3Cb() {
+	const onClick = useCallback(callbackFactory("Div3", "Home", "/", "onClick", 
 			{
   "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function usecode_oneCb() {
+	const onClick = useCallback(callbackFactory("code_one", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function usecode_twoCb() {
+	const onClick = useCallback(callbackFactory("code_two", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox170Cb() {
+	const onClick = useCallback(callbackFactory("TextBox170", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function usesubtitle_containerCb() {
+	const onClick = useCallback(callbackFactory("subtitle_container", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox171Cb() {
+	const onClick = useCallback(callbackFactory("TextBox171", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage106Cb() {
+	const onClick = useCallback(callbackFactory("Image106", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex224Cb() {
+	const onClick = useCallback(callbackFactory("Flex224", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://youtu.be/YokMeI23_iw",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function usemade_with_atriCb() {
+	const onClick = useCallback(callbackFactory("made_with_atri", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage107Cb() {
+	const onClick = useCallback(callbackFactory("Image107", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox172Cb() {
+	const onClick = useCallback(callbackFactory("TextBox172", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function usesubtitle_container_mobCb() {
+	const onClick = useCallback(callbackFactory("subtitle_container_mob", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex228Cb() {
+	const onClick = useCallback(callbackFactory("Flex228", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox173Cb() {
+	const onClick = useCallback(callbackFactory("TextBox173", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage109Cb() {
+	const onClick = useCallback(callbackFactory("Image109", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://www.ycombinator.com/companies/atri-labs",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox175Cb() {
+	const onClick = useCallback(callbackFactory("TextBox175", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage110Cb() {
+	const onClick = useCallback(callbackFactory("Image110", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex229Cb() {
+	const onClick = useCallback(callbackFactory("Flex229", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "https://github.com/Atri-Labs/atrilabs-engine",
+        "target": "_blank"
+      }
+    }
+  ],
   "actions": [
     {
       "type": "do_nothing"
