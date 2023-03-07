@@ -1,0 +1,19 @@
+.p-showcase.header {
+	backdrop-filter: blur(10px);
+}
+
+.p-showcase.slogan {
+	color: transparent;
+	background-image: radial-gradient(#fff 0%, #000 175%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.p-showcase.sub_slogan {
+	color: transparent;
+	background-image: radial-gradient(#fff 0%, #000 175%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

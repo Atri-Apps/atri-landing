@@ -34,5 +34,23 @@
   },
   "code-2.png": {
     "mime": "image/png"
+  },
+  "blogs.png": {
+    "mime": "image/png"
+  },
+  "e-commerce.png": {
+    "mime": "image/png"
+  },
+  "personal-blog.png": {
+    "mime": "image/png"
+  },
+  "sports.png": {
+    "mime": "image/png"
+  },
+  "restraunt.png": {
+    "mime": "image/png"
+  },
+  "tabular.png": {
+    "mime": "image/png"
   }
 }

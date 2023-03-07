@@ -7,10 +7,7 @@ def init_state(at: Atri):
     The argument "at" is a dictionary that has initial values set from visual editor.
     Changing values in this dictionary will modify the intial state of the app.
     """
-    at.code_one_snippet.styles.left = "-7%";
-    at.code_one_snippet.styles.top = "31%";
-    at.code_two_snippet.styles.right = "-5%";
-    at.code_two_snippet.styles.top = "15%";
+    pass
 
 def handle_page_request(at: Atri, req: Request, res: Response, query: str):
     """
