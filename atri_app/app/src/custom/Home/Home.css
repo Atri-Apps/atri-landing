@@ -12,7 +12,7 @@
 	backdrop-filter: blur(10px);
 }
 
-.p-Home.slogan_container {
+.p-Home.slogan_container, .p-Home.TextBox177 {
 	color: transparent;
 	background-image: radial-gradient(#fff 0%, #000 200%);
 	background-clip: text;
@@ -20,7 +20,7 @@
 	-webkit-text-fill-color: transparent;
 }
 
-.p-Home.subtitle_container {
+.p-Home.subtitle_container, .p-Home.TextBox176 {
 	color: transparent;
 	background-image: radial-gradient(#dddddd 0%, rgba(221, 221, 221, 0) 175%);
 	background-clip: text;

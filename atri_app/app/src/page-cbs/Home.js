@@ -1285,8 +1285,8 @@ export function useFlex101Cb() {
 }), [])
 	return { onClick }
 }
-export function usefooterCb() {
-	const onClick = useCallback(callbackFactory("footer", "Home", "/", "onClick", 
+export function useFlex102Cb() {
+	const onClick = useCallback(callbackFactory("Flex102", "Home", "/", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -1623,6 +1623,50 @@ export function useFlex229Cb() {
         "url": "https://github.com/Atri-Labs/atrilabs-engine",
         "target": "_blank"
       }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex230Cb() {
+	const onClick = useCallback(callbackFactory("Flex230", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox176Cb() {
+	const onClick = useCallback(callbackFactory("TextBox176", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox177Cb() {
+	const onClick = useCallback(callbackFactory("TextBox177", "Home", "/", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
     }
   ],
   "actions": [

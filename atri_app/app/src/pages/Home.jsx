@@ -11,7 +11,7 @@ import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/I
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Button } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
 import { Input } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
-import { useBodyCb, usesection_oneCb, useheaderCb, uselogoCb, usenavigationCb, useFlex47Cb, useMenu1Cb, useFlex74Cb, usetop_menuCb, usehero_sectionCb, useopen_sourceCb, useFlex43Cb, useFlex45Cb, useslogan_containerCb, useDiv3Cb, usesubtitle_containerCb, useFlex224Cb, usesubtitle_container_mobCb, useFlex228Cb, useFlex102Cb, useFlex101Cb, useFlex98Cb, useFlex93Cb, useFlex81Cb, useFlex82Cb, useFlex83Cb, useFlex84Cb, useFlex85Cb, useFlex94Cb, useFlex87Cb, useFlex229Cb, useFlex99Cb, useFlex95Cb, useFlex100Cb, useFlex96Cb, useFlex88Cb, useFlex77Cb, useFlex89Cb, useFlex78Cb, useFlex90Cb, useFlex79Cb, useFlex91Cb, useFlex80Cb, useFlex97Cb, useFlex92Cb, usesign_up_statusCb, usemade_with_atriCb, useImage25Cb, useImage26Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useTextBox29Cb, useButton1Cb, useTextBox53Cb, useTextBox54Cb, useTextBox55Cb, useTextBox56Cb, useTextBox31Cb, useImage27Cb, useTextBox32Cb, useImage31Cb, usecode_two_snippetCb, usecode_one_snippetCb, usesloganCb, useTextBox169Cb, usecode_oneCb, usecode_twoCb, usebenefitsCb, useTextBox170Cb, useTextBox171Cb, useImage106Cb, useTextBox172Cb, useTextBox173Cb, useImage109Cb, useImage44Cb, useImage45Cb, useImage46Cb, useImage47Cb, useImage48Cb, useImage50Cb, useImage51Cb, useTextBox175Cb, useImage110Cb, useTextBox75Cb, useTextBox72Cb, useTextBox73Cb, useTextBox68Cb, useTextBox59Cb, useTextBox60Cb, useTextBox69Cb, useTextBox61Cb, useTextBox62Cb, useTextBox63Cb, useTextBox70Cb, useTextBox64Cb, useTextBox65Cb, useTextBox71Cb, useTextBox66Cb, useTextBox74Cb, usesign_up_buttonCb, useInput3Cb, usesign_up_status_textCb, useImage107Cb } from "../page-cbs/Home";
+import { useBodyCb, usesection_oneCb, useheaderCb, uselogoCb, usenavigationCb, useFlex47Cb, useMenu1Cb, useFlex74Cb, usetop_menuCb, usehero_sectionCb, useopen_sourceCb, useFlex43Cb, useFlex45Cb, useslogan_containerCb, useDiv3Cb, usesubtitle_containerCb, useFlex224Cb, usesubtitle_container_mobCb, useFlex228Cb, useFlex102Cb, useFlex101Cb, useFlex98Cb, useFlex93Cb, useFlex81Cb, useFlex82Cb, useFlex83Cb, useFlex84Cb, useFlex85Cb, useFlex94Cb, useFlex87Cb, useFlex229Cb, useFlex99Cb, useFlex95Cb, useFlex100Cb, useFlex96Cb, useFlex88Cb, useFlex77Cb, useFlex89Cb, useFlex78Cb, useFlex90Cb, useFlex79Cb, useFlex91Cb, useFlex80Cb, useFlex97Cb, useFlex92Cb, usesign_up_statusCb, useFlex230Cb, usemade_with_atriCb, useImage25Cb, useImage26Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useTextBox29Cb, useButton1Cb, useTextBox53Cb, useTextBox54Cb, useTextBox55Cb, useTextBox56Cb, useTextBox31Cb, useImage27Cb, useTextBox32Cb, useImage31Cb, usecode_two_snippetCb, usecode_one_snippetCb, usesloganCb, useTextBox169Cb, usecode_oneCb, usecode_twoCb, usebenefitsCb, useTextBox170Cb, useTextBox171Cb, useImage106Cb, useTextBox172Cb, useTextBox173Cb, useImage109Cb, useImage44Cb, useImage45Cb, useImage46Cb, useImage47Cb, useImage48Cb, useImage50Cb, useImage51Cb, useTextBox175Cb, useImage110Cb, useTextBox75Cb, useTextBox72Cb, useTextBox73Cb, useTextBox68Cb, useTextBox59Cb, useTextBox60Cb, useTextBox69Cb, useTextBox61Cb, useTextBox62Cb, useTextBox63Cb, useTextBox70Cb, useTextBox64Cb, useTextBox65Cb, useTextBox71Cb, useTextBox66Cb, useTextBox74Cb, usesign_up_buttonCb, useInput3Cb, usesign_up_status_textCb, useTextBox176Cb, useTextBox177Cb, useImage107Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -169,6 +169,9 @@ const Flex92Cb = useFlex92Cb()
 const sign_up_statusProps = useStore((state)=>state["Home"]["sign_up_status"]);
 const sign_up_statusIoProps = useIoStore((state)=>state["Home"]["sign_up_status"]);
 const sign_up_statusCb = usesign_up_statusCb()
+const Flex230Props = useStore((state)=>state["Home"]["Flex230"]);
+const Flex230IoProps = useIoStore((state)=>state["Home"]["Flex230"]);
+const Flex230Cb = useFlex230Cb()
 const made_with_atriProps = useStore((state)=>state["Home"]["made_with_atri"]);
 const made_with_atriIoProps = useIoStore((state)=>state["Home"]["made_with_atri"]);
 const made_with_atriCb = usemade_with_atriCb()
@@ -340,6 +343,12 @@ const Input3Cb = useInput3Cb()
 const sign_up_status_textProps = useStore((state)=>state["Home"]["sign_up_status_text"]);
 const sign_up_status_textIoProps = useIoStore((state)=>state["Home"]["sign_up_status_text"]);
 const sign_up_status_textCb = usesign_up_status_textCb()
+const TextBox176Props = useStore((state)=>state["Home"]["TextBox176"]);
+const TextBox176IoProps = useIoStore((state)=>state["Home"]["TextBox176"]);
+const TextBox176Cb = useTextBox176Cb()
+const TextBox177Props = useStore((state)=>state["Home"]["TextBox177"]);
+const TextBox177IoProps = useIoStore((state)=>state["Home"]["TextBox177"]);
+const TextBox177Cb = useTextBox177Cb()
 const Image107Props = useStore((state)=>state["Home"]["Image107"]);
 const Image107IoProps = useIoStore((state)=>state["Home"]["Image107"]);
 const Image107Cb = useImage107Cb()
@@ -395,7 +404,6 @@ const Image107Cb = useImage107Cb()
 <TextBox className="p-Home TextBox172 bpt" {...TextBox172Props} {...TextBox172Cb} {...TextBox172IoProps}/>
 </Flex>
 <Flex className="p-Home Flex45 bpt" {...Flex45Props} {...Flex45Cb} {...Flex45IoProps}>
-<Div className="p-Home Div6 bpt" {...Div6Props} {...Div6Cb} {...Div6IoProps}/>
 <Image className="p-Home Image31 bpt" {...Image31Props} {...Image31Cb} {...Image31IoProps}/>
 <Image className="p-Home code_one_snippet bpt" {...code_one_snippetProps} {...code_one_snippetCb} {...code_one_snippetIoProps}/>
 <Image className="p-Home code_two_snippet bpt" {...code_two_snippetProps} {...code_two_snippetCb} {...code_two_snippetIoProps}/>
@@ -414,8 +422,11 @@ const Image107Cb = useImage107Cb()
 </Flex>
 </Flex>
 </Flex>
-<Flex className="p-Home section_two bpt" {...section_twoProps} {...section_twoCb} {...section_twoIoProps}/>
-<Flex className="p-Home footer bpt" {...footerProps} {...footerCb} {...footerIoProps}>
+<Flex className="p-Home Flex230 bpt" {...Flex230Props} {...Flex230Cb} {...Flex230IoProps}>
+<TextBox className="p-Home TextBox177 bpt" {...TextBox177Props} {...TextBox177Cb} {...TextBox177IoProps}/>
+<TextBox className="p-Home TextBox176 bpt" {...TextBox176Props} {...TextBox176Cb} {...TextBox176IoProps}/>
+</Flex>
+<Flex className="p-Home Flex102 bpt" {...Flex102Props} {...Flex102Cb} {...Flex102IoProps}>
 <Flex className="p-Home Flex101 bpt" {...Flex101Props} {...Flex101Cb} {...Flex101IoProps}>
 <Flex className="p-Home Flex98 bpt" {...Flex98Props} {...Flex98Cb} {...Flex98IoProps}>
 <Flex className="p-Home Flex94 bpt" {...Flex94Props} {...Flex94Cb} {...Flex94IoProps}>

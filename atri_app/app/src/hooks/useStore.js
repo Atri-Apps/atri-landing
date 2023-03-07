@@ -134,7 +134,7 @@ const desktopModeProps = {
     "Flex228": {
       "callbacks": {}
     },
-    "footer": {
+    "Flex102": {
       "callbacks": {}
     },
     "Flex101": {
@@ -273,6 +273,9 @@ const desktopModeProps = {
       "callbacks": {}
     },
     "sign_up_status": {
+      "callbacks": {}
+    },
+    "Flex230": {
       "callbacks": {}
     },
     "made_with_atri": {
@@ -1036,6 +1039,30 @@ const desktopModeProps = {
     "sign_up_status_text": {
       "custom": {
         "text": "Your text Here!"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox176": {
+      "custom": {
+        "text": "Developer approved stack for the entire product team"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox177": {
+      "custom": {
+        "text": "A new approach to full-stack development"
       },
       "callbacks": {
         "onClick": [
