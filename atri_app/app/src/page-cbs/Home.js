@@ -1180,3 +1180,15 @@ export function useBodyCb() {
 }), [])
 	return { onClick }
 }
+export function useDiv7Cb() {
+	const onClick = useCallback(callbackFactory("Div7", "Home", "/", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}

@@ -2,6 +2,10 @@
     backdrop-filter: blur(10px);
 }
 
+.p-Home.Div7 {
+    filter: blur(80px);
+}
+
 .p-Home.fr_col_one {
     grid-area: col_one;
 }

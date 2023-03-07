@@ -554,6 +554,7 @@ position: relative;
 top: 0;
 left: 0;
 height: 100%;
+z-index: 1;
 }
 .p-Home.code_two_snippet {
 width: ;
@@ -573,15 +574,16 @@ clear: none;
 height: 40%;
 margin-left: 20px;
 }
+.p-Home.Div7 {
+position: absolute;
+bottom: 0;
+height: 25%;
+width: 25%;
+background-color: #C183FFff;
+}
 @media screen and (max-width: 767px) {
 	.p-Home.hero_section.bpt {
 padding-bottom: 16px;
-	}
-	.p-Home.slogan.bpt {
-text-align: center;
-	}
-	.p-Home.benefits.bpt {
-text-align: center;
 	}
 	.p-Home.footer.bpt {
 overflow: hidden;
@@ -599,6 +601,12 @@ row-gap: ;
 padding-top: 88px;
 	}
 	.p-Home.TextBox25.bpt {
+text-align: center;
+	}
+	.p-Home.slogan.bpt {
+text-align: center;
+	}
+	.p-Home.benefits.bpt {
 text-align: center;
 	}
 }
@@ -665,5 +673,13 @@ width: auto;
 	}
 	.p-Home.TextBox25.bpt {
 text-align: center;
+	}
+	.p-Home.slogan.bpt {
+font-size: 32px;
+line-height: 40px;
+	}
+	.p-Home.benefits.bpt {
+font-size: 15px;
+line-height: 20px;
 	}
 }

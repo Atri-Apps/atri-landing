@@ -727,6 +727,9 @@ const desktopModeProps = {
         "left": "-7%",
         "top": "31%"
       }
+    },
+    "Div7": {
+      "callbacks": {}
     }
   }
 }};

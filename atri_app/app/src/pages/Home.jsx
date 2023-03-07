@@ -8,7 +8,7 @@ import { Flex } from "@atrilabs/react-component-manifests/src/manifests/Flex/Fle
 import { Div } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.tsx";
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
-import { useBodyCb, useanouncementCb, usefooterCb, useFlex18Cb, usefooter_row_oneCb, useFlex11Cb, useFlex13Cb, useFlex14Cb, useFlex15Cb, useFlex16Cb, useFlex17Cb, useFlex20Cb, useFlex21Cb, useFlex22Cb, usefooter_row_threeCb, useFlex24Cb, usefooter_row_twoCb, usefr_col_oneCb, useFlex27Cb, usefr__col_twoCb, useFlex28Cb, usefr_col_threeCb, useFlex30Cb, usefr_col_fourCb, useFlex32Cb, usefr_col_fiveCb, useFlex34Cb, usesection_oneCb, useheaderCb, uselogoCb, usenavigationCb, useFlex40Cb, usehero_sectionCb, useopen_sourceCb, useFlex43Cb, useDiv3Cb, useFlex45Cb, useannouncement_contentCb, useImage11Cb, useImage16Cb, useImage17Cb, useImage18Cb, useImage20Cb, useImage21Cb, useImage22Cb, useTextBox5Cb, useImage23Cb, useTextBox6Cb, useTextBox7Cb, useTextBox8Cb, useTextBox9Cb, useTextBox10Cb, useTextBox11Cb, useTextBox12Cb, useTextBox16Cb, useTextBox13Cb, useTextBox14Cb, useTextBox15Cb, useTextBox20Cb, useTextBox18Cb, useTextBox19Cb, useTextBox23Cb, useTextBox21Cb, useTextBox25Cb, useTextBox24Cb, useImage24Cb, useImage25Cb, useImage26Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useTextBox29Cb, useTextBox30Cb, usesloganCb, usebenefitsCb, useTextBox31Cb, useImage27Cb, useTextBox32Cb, usecode_oneCb, usecode_twoCb, useImage31Cb, usecode_two_snippetCb, usecode_one_snippetCb } from "../page-cbs/Home";
+import { useBodyCb, useanouncementCb, usefooterCb, useFlex18Cb, usefooter_row_oneCb, useFlex11Cb, useFlex13Cb, useFlex14Cb, useFlex15Cb, useFlex16Cb, useFlex17Cb, useFlex20Cb, useFlex21Cb, useFlex22Cb, usefooter_row_threeCb, useFlex24Cb, usefooter_row_twoCb, usefr_col_oneCb, useFlex27Cb, usefr__col_twoCb, useFlex28Cb, usefr_col_threeCb, useFlex30Cb, usefr_col_fourCb, useFlex32Cb, usefr_col_fiveCb, useFlex34Cb, usesection_oneCb, useheaderCb, uselogoCb, usenavigationCb, useFlex40Cb, usehero_sectionCb, useopen_sourceCb, useFlex43Cb, useDiv3Cb, useFlex45Cb, useannouncement_contentCb, useImage11Cb, useImage16Cb, useImage17Cb, useImage18Cb, useImage20Cb, useImage21Cb, useImage22Cb, useTextBox5Cb, useImage23Cb, useTextBox6Cb, useTextBox7Cb, useTextBox8Cb, useTextBox9Cb, useTextBox10Cb, useTextBox11Cb, useTextBox12Cb, useTextBox16Cb, useTextBox13Cb, useTextBox14Cb, useTextBox15Cb, useTextBox20Cb, useTextBox18Cb, useTextBox19Cb, useTextBox23Cb, useTextBox21Cb, useTextBox25Cb, useTextBox24Cb, useImage24Cb, useImage25Cb, useImage26Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useTextBox29Cb, useTextBox30Cb, usesloganCb, usebenefitsCb, useTextBox31Cb, useImage27Cb, useTextBox32Cb, usecode_oneCb, usecode_twoCb, useImage31Cb, usecode_two_snippetCb, usecode_one_snippetCb, useDiv7Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -277,6 +277,9 @@ const code_two_snippetCb = usecode_two_snippetCb()
 const code_one_snippetProps = useStore((state)=>state["Home"]["code_one_snippet"]);
 const code_one_snippetIoProps = useIoStore((state)=>state["Home"]["code_one_snippet"]);
 const code_one_snippetCb = usecode_one_snippetCb()
+const Div7Props = useStore((state)=>state["Home"]["Div7"]);
+const Div7IoProps = useIoStore((state)=>state["Home"]["Div7"]);
+const Div7Cb = useDiv7Cb()
 
   return (<>
   <Flex className="p-Home Body bpt" {...BodyProps} {...BodyCb} {...BodyIoProps}>
@@ -312,6 +315,7 @@ const code_one_snippetCb = usecode_one_snippetCb()
 <Flex className="p-Home Flex45 bpt" {...Flex45Props} {...Flex45Cb} {...Flex45IoProps}>
 <Image className="p-Home Image31 bpt" {...Image31Props} {...Image31Cb} {...Image31IoProps}/>
 <Image className="p-Home code_one_snippet bpt" {...code_one_snippetProps} {...code_one_snippetCb} {...code_one_snippetIoProps}/>
+<Div className="p-Home Div7 bpt" {...Div7Props} {...Div7Cb} {...Div7IoProps}/>
 <Image className="p-Home code_two_snippet bpt" {...code_two_snippetProps} {...code_two_snippetCb} {...code_two_snippetIoProps}/>
 </Flex>
 <Div className="p-Home Div3 bpt" {...Div3Props} {...Div3Cb} {...Div3IoProps}>
